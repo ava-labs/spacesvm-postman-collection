@@ -1,0 +1,305 @@
+{
+	"info": {
+		"_postman_id": "bad3b27b-bf35-4716-b65e-3d2b17891942",
+		"name": "SpacesVM",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12086068"
+	},
+	"item": [
+		{
+			"name": "public",
+			"item": [
+				{
+					"name": "ping",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.ping\",\n  \"params\":{},\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "network",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.network\",\n  \"params\":{},\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "genesis",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.genesis\",\n  \"params\":{},\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "lastAccepted",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.lastAccepted\",\n  \"params\":{},\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "claimed",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.claimed\",\n  \"params\":{\n    \"space\":\"nftmarketplace\"\n  },\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "info",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.info\",\n  \"params\":{\n    \"space\":\"nftmarketplace\"\n  },\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "recentActivity",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.recentActivity\",\n  \"params\":{},\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "suggestedRawFee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.suggestedRawFee\",\n  \"params\":{},\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "owned",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.owned\",\n  \"params\":{\n    \"address\": \"{{cchainAddress}}\"\n  },\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "balance",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.balance\",\n  \"params\":{\n    \"address\": \"{{cchainAddress}}\"\n  },\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"public"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
