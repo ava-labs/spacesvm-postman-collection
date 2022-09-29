@@ -53,14 +53,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -82,14 +82,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -111,14 +111,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -132,7 +132,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.claimed\",\n  \"params\":{\n    \"space\":\"nftmarketplace\"\n  },\n  \"id\": 1\n}",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.claimed\",\n  \"params\":{\n    \"space\":\"gabriel\"\n  },\n  \"id\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -140,14 +140,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -161,7 +161,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.info\",\n  \"params\":{\n    \"space\":\"nftmarketplace\"\n  },\n  \"id\": 1\n}",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.info\",\n  \"params\":{\n    \"space\": \"gabriel\"\n  },\n  \"id\": 1\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -169,14 +169,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -198,14 +198,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -227,14 +227,43 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "suggestedFee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.suggestedFee\",\n  \"params\":{\n    \"input\":{\n      \"type\":\"claim\", \n      \"space\":\"gabriel\"\n    }\n  },\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -256,14 +285,14 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
@@ -285,14 +314,43 @@
 							}
 						},
 						"url": {
-							"raw": "{{baseURL}}/ext/bc/6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93/public",
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
 							"host": [
 								"{{baseURL}}"
 							],
 							"path": [
 								"ext",
 								"bc",
-								"6koX9v3aMfoGn4ZZjjhQTGS7qiMM6aLu9Ae9bLFP5bJDamb93",
+								"{{blockchainID}}",
+								"public"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "issueTx",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"jsonrpc\": \"2.0\",\n  \"method\": \"spacesvm.issueTx\",\n  \"params\":{\n    \"typedData\":{\n  \"types\": {\n    \"EIP712Domain\": [\n      {\n        \"name\": \"name\",\n        \"type\": \"string\"\n      },\n      {\n        \"name\": \"magic\",\n        \"type\": \"uint64\"\n      }\n    ],\n    \"claim\": [\n      {\n        \"name\": \"space\",\n        \"type\": \"string\"\n      },\n      {\n        \"name\": \"price\",\n        \"type\": \"uint64\"\n      },\n      {\n        \"name\": \"blockID\",\n        \"type\": \"string\"\n      }\n    ]\n  },\n  \"primaryType\": \"claim\",\n  \"domain\": {\n    \"name\": \"Spaces\",\n    \"magic\": \"1\"\n  },\n  \"message\": {\n    \"blockID\": \"VdytaLTtNqJaXvfQvVGYoHvtyXzgrJUoUiPUkCySXceYUWES7\",\n    \"price\": \"1\",\n    \"space\": \"gabriel\"\n  }\n},\n    \"signature\": \"0x83e014ab907058463dddce9e35858152353ae507cc88f4548f5deefa2ff2f3511f7d2c8b225492e71267c4ce4d61eee7ce2aefd789190d9b1e78f6ad9a369c7d1c\"\n  },\n  \"id\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{baseURL}}/ext/bc/{{blockchainID}}/public",
+							"host": [
+								"{{baseURL}}"
+							],
+							"path": [
+								"ext",
+								"bc",
+								"{{blockchainID}}",
 								"public"
 							]
 						}
